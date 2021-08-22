@@ -1,0 +1,126 @@
+.wrapper-settings_manager {
+	position: absolute;
+	width:100%;height:100%;
+	display:flex;justify-content:center;align-items:center;
+} .settings_manager {
+	font-family: 'Arial', sans serif;
+	box-sizing:border-box;
+	width:600px;
+	background:#fff;
+	z-index:9999;
+	color:#000;
+	border: none;
+	border-radius: 2px;
+	box-sizing:border-box;
+}
+
+.settings_manager .top {
+    padding: 0 15px;
+	color: #555;
+	font-size: 18px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.settings_manager .body {
+	display:block;
+	padding: 15px 0;
+}.settings_manager .body > * {
+	margin: 5px 15px;
+}
+
+.settings_manager .slider  {
+	margin:0 30px;
+}
+.settings_manager .checkbox {
+	margin-right:5px;
+}.settings_manager label {
+	font-size:14px;
+	font-weight:400;
+	display:flex;
+}.settings_manager .screen_resolution {
+	display: flex;align-items: center;
+}.settings_manager .screen_resolution .divider {
+	margin:0 5px;
+}.settings_manager .input_res {
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+.settings_manager .slider-box {
+	display:flex;
+}.settings_manager .slider-box .slider {
+	flex:1;margin-left:15px;
+}.settings_manager .slider-box .input {
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	flex: 60px;width: 60px;max-width: 60px;
+	text-align: center;
+}
+
+
+
+
+
+
+.settings_manager .buttons > * {
+	padding: 0 25px;
+}.settings_manager .buttons {
+	display:flex;
+	justify-content: space-between;
+	border-top: 1px solid #e5e5e5;
+	padding: 10px 0;
+}.settings_manager .buttons .left {
+	display:flex;
+}.settings_manager .buttons .right {
+
+}
+
+.settings_manager .button:first-child {
+	margin-left:0;
+}.settings_manager .button:last-child {
+	margin-right:0;
+}
+
+.settings_manager .button {
+	display:flex;align-items:center;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	margin:0 5px;
+	border-radius: 2px;
+	cursor:pointer;
+	color:#fff;
+}.settings_manager .button--green {
+	background:#5cb85c;
+}.settings_manager .button--green:hover {
+	background:#449d44;
+}.settings_manager .button--orange {
+	background:#ec971f;
+}.settings_manager .button--orange:hover {
+	background:#d58512;
+}.settings_manager .button--red {
+	background:#d9534f;
+}.settings_manager .button--red:hover {
+	background:#c9302c;
+}.settings_manager .button--blue {
+	background:#337ab7;
+}.settings_manager .button--blue:hover {
+	background:#286090;
+}.settings_manager .buttons .button__text {
+	margin-left:5px;
+}

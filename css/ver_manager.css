@@ -1,0 +1,102 @@
+.wrapper-ver_manager {
+	position: absolute;
+	width:100%;height:100%;
+	display:flex;justify-content:center;align-items:center;
+} .ver_manager {
+	font-family: 'Arial', sans serif;
+	box-sizing:border-box;
+	width:600px;
+	background:#fff;
+	z-index:9999;
+	color:#000;
+	border: none;
+	border-radius: 2px;
+	box-sizing:border-box;
+}
+.ver_manager > * {
+	padding: 0 10px;
+}
+
+.ver_manager .top {
+	color: #555;
+	font-size: 18px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.ver_manager .body {
+}
+.ver_manager .table .scroll{
+	height:100%;
+}
+.ver_manager .table {
+	background: #FCFCFC;
+	width: 100%;
+	height:250px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+} .ver_manager .table .item {
+	padding: 8px;
+	font-size: 14px;
+} .ver_manager .table .item--active, .ver_manager .table .item:hover {
+	color:#fff;
+	background:#1E90FF;
+	cursor:pointer;
+} .ver_manager .table .item--title {
+	color:#000;font-weight: bold;font-size: 12px;
+	background: #eee;
+} .ver_manager .table .item--title:hover {
+	color:#000;
+	background: #eee;
+	cursor:default;
+}
+
+
+
+
+
+
+.ver_manager .buttons {
+	display:flex;
+	justify-content: space-between;
+}.ver_manager .buttons .left {
+	display:flex;
+}.ver_manager .buttons .right {
+
+}
+
+.ver_manager .button:first-child {
+	margin-left:0;
+}.ver_manager .button:last-child {
+	margin-right:0;
+}
+
+.ver_manager .button {
+	display:flex;align-items:center;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	margin:0 5px;
+	border-radius: 2px;
+	cursor:pointer;
+	color:#fff;
+}.ver_manager .button--green {
+	background:#5cb85c;
+}.ver_manager .button--green:hover {
+	background:#449d44;
+}.ver_manager .button--orange {
+	background:#ec971f;
+}.ver_manager .button--orange:hover {
+	background:#d58512;
+}.ver_manager .button--red {
+	background:#d9534f;
+}.ver_manager .button--red:hover {
+	background:#c9302c;
+}.ver_manager .button--blue {
+	background:#337ab7;
+}.ver_manager .button--blue:hover {
+	background:#286090;
+}.ver_manager .buttons .button__text {
+	margin-left:5px;
+}
