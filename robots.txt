@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /forum/
+Host: flauncher.ru
+Sitemap: https://flauncher.ru/sitemap.xml
+Clean-param: __cf_chl_managed_tk__&__cf_chl_captcha_tk__
